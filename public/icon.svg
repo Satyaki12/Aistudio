@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="pwaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#4338ca" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+  </defs>
+  <!-- Background with safe zone padding -->
+  <rect width="512" height="512" rx="128" fill="url(#pwaGrad)" />
+  <!-- Phone Outline -->
+  <rect x="146" y="86" width="220" height="340" rx="36" fill="#0b0f19" stroke="#818cf8" stroke-width="12" />
+  <!-- Phone Speaker -->
+  <rect x="226" y="112" width="60" height="8" rx="4" fill="#475569" />
+  <!-- Web Globe / Lightning Symbol inside Phone -->
+  <circle cx="256" cy="240" r="54" fill="none" stroke="#818cf8" stroke-width="10" />
+  <ellipse cx="256" cy="240" rx="26" ry="54" fill="none" stroke="#818cf8" stroke-width="8" />
+  <line x1="202" y1="240" x2="310" y2="240" stroke="#818cf8" stroke-width="8" />
+  <!-- PWA Badge -->
+  <path d="M220 340 L292 340 M256 316 L256 364" stroke="#a5b4fc" stroke-width="10" stroke-linecap="round" />
+</svg>

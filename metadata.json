@@ -1,0 +1,8 @@
+{
+  "name": "URL2APK - Website to Android App Generator",
+  "description": "Convert any website into an installable Progressive Web App (PWA) or Android project with zero Android Studio required.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
